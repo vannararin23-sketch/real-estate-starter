@@ -244,9 +244,8 @@ img {
 }
 
 .quote {
-  background: var(--surface);
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
+  background: #fff;
+  border: 1px solid var(--border);
   box-shadow: var(--shadow);
   padding: 12px;
   font-size: 0.95rem;
@@ -260,7 +259,7 @@ img {
 }
 
 .subscribe {
-  max-width: 750px;
+  max-width: 780px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -270,7 +269,8 @@ img {
   border-radius: 14px;
   box-shadow: var(--shadow);
   margin-top: 18px;
-  padding: 16px 26px;
+  margin-bottom: 28px;
+  padding: 32px 46px;
 }
 
 .subscribe__row {
@@ -280,7 +280,6 @@ img {
   margin-top: 8px;
 }
 
-
 .subscribe__select {
   appearance: none;
   border: 1px solid var(--border);
@@ -288,15 +287,6 @@ img {
   padding: 12px;
   background: #fff;
   font-family: var(--font-family);
-  cursor: pointer;
-}
-
-.subscribe__select:open {
-  background-color: var(--acent-secondary);
-}
-
-.subscribe__select option {
-  background-color: var(--bg);
 }
 
 .subscribe__row input {
