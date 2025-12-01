@@ -7,11 +7,17 @@ fetch("../public/data/properties.json")
   })
   .catch((error) => console.error("Error fetching JSON:", error));
 
+// Dark mode toggle
+function toggleTheme() {
+  document.body.classList.toggle("dark-mode");
+}
+
+
 
 // navbar scrolled
 window.addEventListener("scroll", function () {
   const navbar = document.querySelector(".navbar-content");
-  if (window.scrollY > 50) { // scroll amount to trigger
+  if (window.scrollY > 50) {
     navbar.classList.add("scrolled");
   } else {
     navbar.classList.remove("scrolled");
