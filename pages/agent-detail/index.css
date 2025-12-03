@@ -116,6 +116,27 @@ button:hover{
   background:black;
 }
 
+.subscribe__row {
+  width: 100%;
+  display: grid;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.subscribe__select {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 12px;
+  background: #fff;
+  font-family: var(--font-family);
+}
+
+.subscribe__row input {
+  height: 40px;
+  border-radius: 12px;
+  padding: 0px 12px;
+  border: 1px solid var(--border);
+}
 
 
 
